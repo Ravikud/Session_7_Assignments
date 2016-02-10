@@ -1,0 +1,53 @@
+
+
+Ans. 
+Why use Node.Js?
+
+1. It's Fast:
+
+Node.js is a JavaScript runtime that uses the V8 engine developed by Google for use in Chrome. V8 compiles and executes
+JavaScript at lightning speeds mainly due to the fact that V8 compiles JavaScript into native machine code.
+
+2. It uses Event Looping Mechanism:
+
+The event loop is a single thread that performs all I/O operations asynchronously. 
+When a Node application needs to perform an I/O operation, it sends an asynchronous task to the event loop,
+along with a callback function, and then continues to execute the rest of its program.
+
+3. Lots of Tools:npm is the Node.js package manager. is fast, robust, and consistent. It does a great job at 
+specifying and installing project dependencies. It keeps packages isolated from other projects, avoiding version conflicts.
+
+Another tool is Grunt that transform your files.
+
+4. Client as well as Server Side: Node.Js acts as both server and client side language.
+
+5. Multi user language: If Node.js excels at many concurrent connections, then it makes sense that it excels at
+ multi-user, real-time web applications like chat and games.
+
+5. Streaming Data: Since Node.js is very good at handling I/O, we can take advantage and build some cool things. 
+For example, it’s possible to transcode audio or video files while they’re uploading, cutting down on the overall 
+processing time. 
+
+Node can read/write streams to websockets just as well as it can read/write streams to HTTP.
+
+
+
+Comparison of Node.Js with other server side languages.
+
+1.Asynchronous: Node.js was created because concurrency is difficult in many server-side programming languages, and often
+ leads to poor performance.Most of the server side languages use synchronous type of programming. But, Node.Js uses 
+assynchronous programming.This means that the server reacts to events and send the events.
+
+2. Client and Server Side: It acts as both server side and client side type of programming language.
+
+3. It is faster in execution than most of the other languages.
+
+4. Event Looping Mechanism: Node.js uses an event loop, instead of processes or threads, to scale. Callbacks are defined,
+ and the server automatically enters the event loop at the end of the callback definition. Node.js exits the event loop
+ when there are no further callbacks to be performed.
+
+
+Companies which are using Node.Js are:
+
+1 LinkedIn, Microsoft, Amazon, Twitter, Paypal, Netflix etc.
+
